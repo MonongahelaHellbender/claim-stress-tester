@@ -1,0 +1,65 @@
+[
+  {
+    "id": "energy_order",
+    "truth": "Systems require energy to maintain order.",
+    "plain": "Things do not stay organized for free.",
+    "domains": ["physics", "biology", "human systems"],
+    "patterns": ["energy", "maintenance", "entropy", "decay"],
+    "gap_questions": [
+      "What maintains order?",
+      "Where is energy entering?",
+      "Where is energy being lost?",
+      "What happens when maintenance stops?"
+    ]
+  },
+  {
+    "id": "threshold_failure",
+    "truth": "Many systems fail after crossing a threshold.",
+    "plain": "A system may look stable until a limit is crossed.",
+    "domains": ["physics", "biology", "safety", "AI"],
+    "patterns": ["threshold", "failure", "collapse", "overload"],
+    "gap_questions": [
+      "What limit may be crossed?",
+      "What early warning signs appear?",
+      "Is failure gradual or sudden?"
+    ]
+  },
+  {
+    "id": "feedback_loop",
+    "truth": "Feedback can stabilize or destabilize a system.",
+    "plain": "A system can correct itself or amplify its own problems.",
+    "domains": ["engineering", "biology", "organizations", "AI"],
+    "patterns": ["feedback", "stability", "runaway", "correction"],
+    "gap_questions": [
+      "What feedback loop exists?",
+      "Is it correcting or amplifying the problem?",
+      "Is there a delay in feedback?"
+    ]
+  },
+  {
+    "id": "noise_signal",
+    "truth": "Noise can hide signal.",
+    "plain": "Important patterns can be hidden by randomness or poor measurement.",
+    "domains": ["statistics", "AI", "safety", "science"],
+    "patterns": ["noise", "signal", "uncertainty", "measurement"],
+    "gap_questions": [
+      "What is the signal?",
+      "What is noise?",
+      "Is the measurement reliable?",
+      "What data is missing?"
+    ]
+  },
+  {
+    "id": "hidden_variable",
+    "truth": "Unmeasured variables can explain apparent contradictions.",
+    "plain": "When an explanation does not fit, something important may be missing.",
+    "domains": ["science", "statistics", "medicine", "AI", "safety"],
+    "patterns": ["hidden variable", "confounder", "missing cause", "contradiction"],
+    "gap_questions": [
+      "What variable is not being measured?",
+      "What assumption may be false?",
+      "What would explain the contradiction?",
+      "What data would reveal the missing variable?"
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "dimensions": {
+    "change": {
+      "description": "How the system appears to move over time.",
+      "values": ["stable", "increasing", "decreasing", "oscillating", "degrading", "unknown"],
+      "keywords": {
+        "stable": ["stable", "steady", "constant", "unchanged", "balanced"],
+        "increasing": ["increase", "grow", "rise", "escalate", "accumulate", "build"],
+        "decreasing": ["decrease", "drop", "decline", "reduce", "fade"],
+        "oscillating": ["cycle", "repeat", "wave", "seasonal", "swing", "fluctuate"],
+        "degrading": ["fail", "breakdown", "worsen", "decay", "collapse", "drift"]
+      }
+    },
+    "noise": {
+      "description": "How much randomness, uncertainty, or measurement error may be present.",
+      "values": ["low", "medium", "high", "unknown"],
+      "keywords": {
+        "high": ["noise", "random", "uncertain", "messy", "variable", "inconsistent", "real-world"],
+        "medium": ["mixed", "unclear", "variation", "sometimes"],
+        "low": ["clean", "controlled", "exact", "known", "measured"]
+      }
+    },
+    "constraint": {
+      "description": "Whether limits or boundaries shape the outcome.",
+      "values": ["weak", "strong", "hidden", "unknown"],
+      "keywords": {
+        "strong": ["limit", "constraint", "capacity", "maximum", "minimum", "boundary", "rule"],
+        "hidden": ["unknown", "missing", "hidden", "unmeasured", "latent", "confounder"],
+        "weak": ["open", "flexible", "unbounded"]
+      }
+    },
+    "feedback": {
+      "description": "Whether the system corrects or amplifies itself.",
+      "values": ["stabilizing", "destabilizing", "delayed", "unknown"],
+      "keywords": {
+        "stabilizing": ["correct", "regulate", "balance", "recover", "control"],
+        "destabilizing": ["runaway", "amplify", "spiral", "escalate", "compound"],
+        "delayed": ["delay", "lag", "late", "slow response"]
+      }
+    },
+    "threshold": {
+      "description": "Whether failure or transition may happen after a limit is crossed.",
+      "values": ["absent", "possible", "likely", "unknown"],
+      "keywords": {
+        "likely": ["collapse", "break", "fail", "threshold", "tipping point", "critical"],
+        "possible": ["limit", "overload", "capacity", "saturation", "sudden"]
+      }
+    },
+    "recovery": {
+      "description": "Whether the system can return to a healthier state after stress.",
+      "values": ["present", "missing", "insufficient", "unknown"],
+      "keywords": {
+        "present": ["recover", "restore", "heal", "repair", "rest", "reset"],
+        "missing": ["no recovery", "never recovers", "unrecovered", "persistent"],
+        "insufficient": ["fatigue", "burnout", "stress", "overload", "strain", "exhaustion"]
+      }
+    },
+    "hidden_variable": {
+      "description": "Whether an unmeasured variable may explain the mismatch.",
+      "values": ["unlikely", "possible", "likely", "unknown"],
+      "keywords": {
+        "likely": ["contradiction", "unexpected", "doesn't fit", "missing", "hidden", "confounder", "unknown cause"],
+        "possible": ["why", "unclear", "variable", "factor", "cause", "real-world"]
+      }
+    },
+    "transfer_gap": {
+      "description": "Whether something works in training but fails in a different setting.",
+      "values": ["absent", "possible", "likely", "unknown"],
+      "keywords": {
+        "likely": ["training", "real-world", "generalize", "overfit", "distribution shift", "fails outside"],
+        "possible": ["works here", "fails there", "different environment", "new condition"]
+      }
+    }
+  }
+}
