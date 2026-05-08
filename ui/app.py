@@ -28,11 +28,32 @@ st.caption("Routes a claim into evidence-quality stress tests. Does not verify c
 
 st.divider()
 
-default_claim = "This intervention always improves outcomes in all patient populations."
+DEMO_CLAIMS = {
+    "— select an example —": None,
+    "Hubble tension (cosmology)": (
+        "Logarithmic expansion drift resolves the Hubble tension by introducing a geometric correction "
+        "that unifies early- and late-universe H0 measurements without modifying standard ΛCDM."
+    ),
+    "Universal health intervention": "This intervention always improves outcomes in all patient populations.",
+    "AI safety claim": "This model is safe because it passes all current safety benchmarks.",
+    "Genetics — selection": (
+        "The selected allele frequency in DGRP lines shows that positive selection explains all "
+        "observed trait variation in the population."
+    ),
+    "Climate overclaim": "Carbon capture via enhanced basalt weathering will always sequester more CO2 than it emits.",
+}
+
+with st.sidebar:
+    st.markdown("### Try an example")
+    chosen = st.selectbox("Load a demo claim", list(DEMO_CLAIMS.keys()), key="demo_select")
+
+default_claim = DEMO_CLAIMS.get(chosen) or (load_latest_bridge() or {}).get("claim", "")
+if not default_claim:
+    default_claim = "This intervention always improves outcomes in all patient populations."
 
 claim_input = st.text_area(
     "Enter a scientific claim to stress-test",
-    value=(load_latest_bridge() or {}).get("claim", default_claim),
+    value=default_claim,
     height=120,
     key="claim_input",
 )

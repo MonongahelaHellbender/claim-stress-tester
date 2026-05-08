@@ -2,16 +2,16 @@
 
 Routes a scientific claim into structured stress tests.
 
-Updated: 2026-05-07T00:32:09
+Updated: 2026-05-08T10:16:22
 
 ## Claim Under Review
 
-This AI model has been proven to solve all math problems correctly without any errors.
+Logarithmic expansion drift resolves the Hubble tension without modifying standard LCDM.
 
 ## Domain
 
-- Primary: `ai_safety`
-- Confidence: `0.33`
+- Primary: `cosmology`
+- Confidence: `0.67`
 
 ## Stress Tests Triggered
 
@@ -19,19 +19,15 @@ This AI model has been proven to solve all math problems correctly without any e
 
 ## Structural Dimensions
 
-- No strong structural dimension match.
+- `change` → `degrading`: How the system appears to move over time.
 
 ## Truth Constraints
 
-- Feedback can stabilize or destabilize a system. (A system can correct itself or amplify its own problems.)
-- Systems require energy to maintain order. (Things do not stay organized for free.)
-- Many systems fail after crossing a threshold. (A system may look stable until a limit is crossed.)
-- Noise can hide signal. (Important patterns can be hidden by randomness or poor measurement.)
-- Unmeasured variables can explain apparent contradictions. (When an explanation does not fit, something important may be missing.)
+- Multiple models can fit the same data equally well. (Fitting the data does not uniquely determine the correct model.)
 
 ## Flags
 
-- Universal quantifier detected — check whether the claim has been tested at the stated scope.
+- No major flags.
 
 ## Recommended Stress Tests
 
@@ -40,4 +36,3 @@ This AI model has been proven to solve all math problems correctly without any e
 - Check for null results: has this claim failed to replicate anywhere?
 - Check for source conflicts: does any peer-reviewed literature contradict this?
 - Check staleness: is there a more recent revision, retraction, or update?
-- For AI claims: verify whether improvement metrics reflect generalisation or training-set overfitting.

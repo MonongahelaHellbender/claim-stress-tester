@@ -3,8 +3,17 @@
     "id": "energy_order",
     "truth": "Systems require energy to maintain order.",
     "plain": "Things do not stay organized for free.",
-    "domains": ["physics", "biology", "human systems"],
-    "patterns": ["energy", "maintenance", "entropy", "decay"],
+    "domains": [
+      "physics",
+      "biology",
+      "human systems"
+    ],
+    "patterns": [
+      "energy",
+      "maintenance",
+      "entropy",
+      "decay"
+    ],
     "gap_questions": [
       "What maintains order?",
       "Where is energy entering?",
@@ -16,8 +25,18 @@
     "id": "threshold_failure",
     "truth": "Many systems fail after crossing a threshold.",
     "plain": "A system may look stable until a limit is crossed.",
-    "domains": ["physics", "biology", "safety", "AI"],
-    "patterns": ["threshold", "failure", "collapse", "overload"],
+    "domains": [
+      "physics",
+      "biology",
+      "safety",
+      "AI"
+    ],
+    "patterns": [
+      "threshold",
+      "failure",
+      "collapse",
+      "overload"
+    ],
     "gap_questions": [
       "What limit may be crossed?",
       "What early warning signs appear?",
@@ -28,8 +47,18 @@
     "id": "feedback_loop",
     "truth": "Feedback can stabilize or destabilize a system.",
     "plain": "A system can correct itself or amplify its own problems.",
-    "domains": ["engineering", "biology", "organizations", "AI"],
-    "patterns": ["feedback", "stability", "runaway", "correction"],
+    "domains": [
+      "engineering",
+      "biology",
+      "organizations",
+      "AI"
+    ],
+    "patterns": [
+      "feedback",
+      "stability",
+      "runaway",
+      "correction"
+    ],
     "gap_questions": [
       "What feedback loop exists?",
       "Is it correcting or amplifying the problem?",
@@ -40,8 +69,18 @@
     "id": "noise_signal",
     "truth": "Noise can hide signal.",
     "plain": "Important patterns can be hidden by randomness or poor measurement.",
-    "domains": ["statistics", "AI", "safety", "science"],
-    "patterns": ["noise", "signal", "uncertainty", "measurement"],
+    "domains": [
+      "statistics",
+      "AI",
+      "safety",
+      "science"
+    ],
+    "patterns": [
+      "noise",
+      "signal",
+      "uncertainty",
+      "measurement"
+    ],
     "gap_questions": [
       "What is the signal?",
       "What is noise?",
@@ -53,13 +92,75 @@
     "id": "hidden_variable",
     "truth": "Unmeasured variables can explain apparent contradictions.",
     "plain": "When an explanation does not fit, something important may be missing.",
-    "domains": ["science", "statistics", "medicine", "AI", "safety"],
-    "patterns": ["hidden variable", "confounder", "missing cause", "contradiction"],
+    "domains": [
+      "science",
+      "statistics",
+      "medicine",
+      "AI",
+      "safety"
+    ],
+    "patterns": [
+      "hidden variable",
+      "confounder",
+      "missing cause",
+      "contradiction"
+    ],
     "gap_questions": [
       "What variable is not being measured?",
       "What assumption may be false?",
       "What would explain the contradiction?",
       "What data would reveal the missing variable?"
+    ]
+  },
+  {
+    "id": "model_degeneracy",
+    "truth": "Multiple models can fit the same data equally well.",
+    "plain": "Fitting the data does not uniquely determine the correct model.",
+    "domains": [
+      "cosmology",
+      "physics",
+      "statistics",
+      "machine learning"
+    ],
+    "patterns": [
+      "fit",
+      "model",
+      "parameter",
+      "degeneracy",
+      "likelihood",
+      "tension",
+      "concordance"
+    ],
+    "gap_questions": [
+      "Do other models predict the same observations?",
+      "What independent observable would distinguish between models?",
+      "How many free parameters were fitted?",
+      "Has the model been tested on data not used to tune it?"
+    ]
+  },
+  {
+    "id": "population_scope",
+    "truth": "Effects measured in one population may not transfer to others.",
+    "plain": "A result in one group is not automatically a universal truth.",
+    "domains": [
+      "genetics_biology",
+      "medicine",
+      "social science"
+    ],
+    "patterns": [
+      "population",
+      "generalize",
+      "universal",
+      "all",
+      "applies",
+      "transfer",
+      "replication"
+    ],
+    "gap_questions": [
+      "What population was studied?",
+      "Was the result replicated in an independent population?",
+      "Are there known confounders in this population?",
+      "What is the effect size and its uncertainty?"
     ]
   }
 ]
